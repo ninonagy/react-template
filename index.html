@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="about:blank">
+    <!-- Load React. -->
+    <!-- Note: When deploying, replace with production files -->
+    <script src="./tools/react.dev.js"></script>
+    <script src="./tools/react-dom.dev.js"></script>
+    <script src="./tools/react-router-dom.js"></script>
+    <title>Title</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      const { createElement, Component } = React;
+      const { render } = ReactDOM;
+      const h = createElement;
+      
+      const { HashRouter, BrowserRouter, Link, Route, Redirect, Switch } = window.ReactRouterDOM;
+    </script>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
